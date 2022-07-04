@@ -2,7 +2,7 @@ mapboxgl.accessToken = mapToken;
 const map = new mapboxgl.Map({
     container: 'cluster-map',
     style: 'mapbox://styles/mapbox/light-v10',
-    center: [-103.5917, 40.6699],
+    center: [107.99761019347096, 14.585264759901607], // lấy việt nam là trung tâm
     zoom: 3
 });
 map.addControl(new mapboxgl.NavigationControl());
